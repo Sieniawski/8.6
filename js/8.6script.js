@@ -1,25 +1,15 @@
 function getTriangleArea(a, h) {
 	
 	if ( (a>0) && (h>0) ) {
-		alert(a*h/2)
+		console.log(a*h/2)
 	}
 	else {
-		alert('Nieprawidłowe dane.')
+		console.log('Nieprawidłowe dane.')
 	}
 }
 
 getTriangleArea(5, -2)
-
-
-/* Na kodilli ot chyba było w ten sposób
-
-function getTriangleArea(a, h) {
-	if ( (a<0) || (h<0) ) {
-		alert('Nieprawidłowe dane.')
-	} else {
-		alert(a*h/2)
-	}
-}
-
-getTriangleArea(5, -2)
-*/
+getTriangleArea(5, 2)
+getTriangleArea(0, -2)
+getTriangleArea(0, 10)
+getTriangleArea(125, 12)
